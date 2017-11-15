@@ -69,24 +69,43 @@
 		</header>
 
 		<section id="research-interests and experience">
-			<h2>Research interests and experience</h2>
+			<h2>Research interests </h2>
 			<p itemprop="description">
-        
 
-        The Standard Model (SM) of particle physics gives a unified theoretical description of phenomena governed by the strong, weak, and electromagnetic interactions. It has been incredibly predictive in a wide range of experiments; yet besides its success it is an effective field theory and it is not yet clear at what energy it will require new laws of physics. If this is related to the question of the origin of mass of elementary particles, then looking into discrepancies between SM predictions and Higgs phenomena is essential in order to recognize any new physics. This is why precision predictions for the SM are key.
-Quantum ChromoDynamics (QCD) is the theory which describes the strong interaction. The SM involves QCD at different regimes: at high energies (at the mass of the W-bosons MW ∼ O(100GeV )) it is possible to perform a perturbative expansion while at the hadronic scale O ∼ 1GeV we need to use a non perturbative approach.
-The most used, non-perturbative, definition of QCD is based on a lattice regularization, which makes the theory well-defined at a mathematical level and allows us to compute quantities of interest in the strongly coupled regime, from first principles. It allows one to perform analytical as well as numerical studies. The significant advantage of this formulation is that one can evaluate the path integral numerically via Monte Carlo methods. In this respect, one can think of lattice simulations as a laboratory to build experiments and make measurements.
-Historically, one of the main problems with quantum field theories has been the emergence of divergences caused by the fact that the quantities we are interested in are derived from the product of local operators. One way to overcome this problem is applying a regularization and then a renormalization program. Lattice QCD is a way of regularizing the theory in which one puts a cutoff on high energies, which is removed eventually. Once the lattice theory is defined and renormalized, the continuum theory is recovered by sending the lattice spacing to zero.
-One of the role of the lattice, in precision predictions, is to provide matrix elements for the so called effective hamiltonians and parameters such as the strong coupling constant (αS) and the quark masses.
-An improved knowledge of αS in the Higgs sector would allow us to recognize new physics and lattice measurements thus giving us the best theoretical prediction in this respect.
-</p>
+        Physics Beyond the Standard Model <br>
+        The Standard Model (SM) of particle physics gives a unified theoretical
+description of phenomena governed by the strong, weak, and electromagnetic
+interactions. It has been incredibly predictive in a wide range of experiments;
+yet besides its success it is an effective field theory and it is not yet clear
+at what energy it will require new laws of physics (for instance, it does
+not include dark matter). <br>
+Quantum Chromodynamics (QCD) is the theory
+which describes the strong interaction. The SM involves QCD at dierent
+regimes: at high energies (at the mass of the W-bosons MW  ~O(100GeV ))
+it is possible to perform a perturbative expansion while at the hadronic scale,
+ ~O(1GeV ), we need to use a non-perturbative approach.
+Lattice QCD is a non-perturbative denition of QCD, based on a lattice
+regularization, which makes the theory well-defined at a mathematical level
+and allows us to compute quantities of interest in the strongly coupled regime,
+from first principles. It allows one to perform analytical and numerical
+studies. The significant advantage of this formulation is that one can evaluate
+the path integral numerically via Monte Carlo methods. Once the lattice
+theory is defined and renormalized, the continuum theory is recovered by
+sending the lattice spacing to zero. <br>
+One of the roles of lattice QCD in precision physics is to provide matrix
+elements for the so called effective hamiltonians and parameters such as the
+strong coupling constant (alpha_S) and the quark masses.
+There are two ways of researching the possible extensions of the SM on the
+lattice. The first is indirect: doing precision measurements at low energies.
+For instance, a very precise determination of the parameters which control
+the flavor mixing will make possible to find small contributions to decay
+amplitudes coming from new particles. They depend upon the hadronic
+matrix elements which are non-perturbative and can be measured by means
+of lattice simulations. The second way of researching the possible extension
+of the SM on the lattice is direct: it consists in performing simulations with
+either dierent gauge groups or different representations for the matter fields,
+as those models can provide viable extensions of the SM.
 
-			<p>For my master thesis, I carried out a numerical study on the lattice of the static quark-antiquark potential in the pure SU(3) gauge theory; I modified an existing Monte Carlo code to implement different boundary conditions and I wrote a measurement package. As part of my Ph.D., I am currently working on a project which deals with Symanzik improvement of Gradient Flow (GF) observables and the setup I use is fixed by the Schroedinger functional (SF) scheme geometry. On a finite lattice of volume (L^3 T), one has to impose boundary conditions on the fields; the SF scheme is defined by periodic and Dirichlet boundary conditions in space and time, respectively. I also consider the Neumann boundary condition in time, either at one time boundary (x0 = 0) or the other (x0 = T ), they define the so called open-SF boundary conditions. In addition, I induce such boundary conditions using an orbifold projection and this gives a technical advantage which significantly reduces the computation time. The GF is a tool recently introduced in lattice QCD and it is extremely useful as it provides a new class of renormalized observables. They can be measured with high precision by means of lattice simulations and have a number of interesting applications, such as the scale setting and a non- perturbative definition of the coupling constant (the so called GF coupling). Such applications allow one to reach higher statistical precision, but the drawback is that they have rather large cutoff effects found in many gradient flow observables. The Symanzik improvement programme has been introduced as a systematic way of reducing the size of the lattice effects and accelerate the convergence to the continuum limit. It is designed for a local field theory while the GF is a spreading operation; in order to apply the improvement it is necessary to reformulate the theory in 4 + 1 dimensions, where the additional dimension is the flow time. It turns out that only a single additional counterterm is required with respect to the 4-dimensional theory; including such a coun- terterm corresponds to a modified initial condition for the flow equation. This removes the remaining cutoff effects. Our perturbative studies have confirmed what is expected. We consider the easiest observable one can build, the so called energy density and take the spatial components; then we study how to minimize the cutoff effects by different choices of the observable, flow equation and Yang-Mills action discretizations. Also, I performed the same study for the electric component of the same observable, which is defined in terms of spatial and temporal components; its behavior is complicated as there is no periodicity in the temporal direction in the SF scheme. I have included the dependence upon the initial condition for the flow equation and I have numerically confirmed what is expected at lowest order in perturbation theory.
-I am currently performing a non-perturbative study on the High Performance Computing cluster of Trinity College Dublin. The purpose is to understand how to generalize the improvement condition for the GF observables.
-To sum up, the purpose of my current study is to understand how to use the universality of the continuum limit in order to make reliable extrapolations to it. As has already been mentioned, one of the applications of this research is to allow us to reach higher accuracy in the determination of the strong coupling, which is essential for finding new physics.
-As far as my future perspectives are concerned, I believe the most in- teresting aspects of the physics beyond the SM are flavor physics and the nature of the Higgs particle. The techniques I use and the skills I acquired have a number of applications which can be studied.
-Also, the inclusion of isospin-breaking effects (typically of the order of a few percent effects) is needed, due to the increasing precision reached in lattice simulations. I want to apply the procedure for the improvement of GF observables to Quantum ElectroDynamics (QED) and QCD.
-More generally, I am interested in the whole realm of study concerning the challenging topics of QED+QCD by means of lattice explorations.
 
     </section>
 
