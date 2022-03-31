@@ -1,1 +1,13 @@
-this is just to play around
+# list of numbers rescale between [0,1]
+
+import numpy as np
+
+a = []
+
+sdt_scalar(a):
+ a_max = np.max(a)
+ a_min = np.min(a)
+ 
+ b = [(a_i - a_min)/ (a_max -a_min) for a_i in a]
+ 
+ return b
